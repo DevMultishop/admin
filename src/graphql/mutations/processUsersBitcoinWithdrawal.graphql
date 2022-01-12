@@ -1,0 +1,9 @@
+mutation processUsersBitcoinWithdrawal(
+  $ids:String!
+  $financial_password:String!
+){
+  processUsersBitcoinWithdrawal(
+    ids:$ids
+    financial_password:$financial_password
+  )
+}

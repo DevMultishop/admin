@@ -1,0 +1,9 @@
+mutation updateDailyIncome(
+  $income_id:String!
+  $value:String!
+){
+  updateDailyIncome(
+    income_id:$income_id
+    value:$value
+  )
+}

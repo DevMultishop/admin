@@ -1,0 +1,11 @@
+mutation createAdminSession(
+  $password:String!
+  $username:String!
+){
+  createAdminSession(
+    password:$password
+    username:$username
+  ){
+    token
+  }
+}

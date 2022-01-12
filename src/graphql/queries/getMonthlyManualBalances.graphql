@@ -1,0 +1,12 @@
+query getMonthlyManualBalances($month:Float! $year:Float!){
+  getMonthlyManualBalances(month:$month year:$year){
+    id
+    description
+    formatted_usd_value
+    formatted_date
+    color
+    user{
+      email
+    }
+  }
+}

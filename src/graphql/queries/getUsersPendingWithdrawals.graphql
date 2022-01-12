@@ -1,0 +1,19 @@
+query getUsersPendingWithdrawals{
+  getUsersPendingWithdrawals{
+    id
+    address
+    txid
+    formatted_usd_value
+    formatted_btc_usd_conversion
+    formatted_btc_amount
+    txid_link
+    formatted_date
+    usd_cents
+    satoshis
+    user{
+      full_name
+      email
+      username
+    }
+  }
+}

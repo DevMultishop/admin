@@ -1,0 +1,11 @@
+mutation createUserManualBalance(
+  $usd_value:Float!
+  $financial_password:String!
+  $target_user_id:String!
+){
+  createUserManualBalance(
+    usd_value:$usd_value
+    financial_password:$financial_password
+    target_user_id:$target_user_id
+  )
+}

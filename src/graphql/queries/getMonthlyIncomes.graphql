@@ -1,0 +1,9 @@
+query getMonthlyIncomes($month:Float! $year:Float! ){
+  getMonthlyIncomes(month:$month year:$year){
+    id
+    date_formatted
+    value
+    applied
+
+  }
+}

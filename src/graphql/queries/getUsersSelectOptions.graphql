@@ -1,0 +1,6 @@
+query getUsersSelectOptions{
+  getUsersSelectOptions{
+    value
+    label
+  }
+}

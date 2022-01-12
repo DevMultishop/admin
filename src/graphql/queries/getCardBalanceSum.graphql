@@ -1,0 +1,3 @@
+query getCardBalanceSum($card:String!){
+  getCardBalanceSum(card:$card)
+}
